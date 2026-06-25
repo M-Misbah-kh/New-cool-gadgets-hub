@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./Src/*"]
+    }
+  },
+  "include": ["Src", "app.config.ts"],
+  "exclude": ["node_modules", ".output", ".vinxi"]
+}
